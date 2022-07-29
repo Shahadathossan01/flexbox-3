@@ -1,0 +1,45 @@
+.container{
+    display: flex;
+    gap: 40px;
+    margin: 100px 20px;
+}
+.box{
+    width: 100%;
+    box-shadow: 10px 10px 15px gray;
+}
+.first-box{
+    margin-top: 30px;
+}
+.last-box{
+    margin-top: 40px;
+}
+.box-1 img{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.end{
+    text-align: center;
+}
+.end h1{
+    font-size: 2em;
+}
+.end button{
+    border: none;
+    padding: 5% 10%;
+    background-color: dimgrey;
+    color: white;
+    font-weight: 20px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+@media screen and (max-width:576px){
+    .container{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:768px){
+    .container{
+        flex-wrap: wrap;
+    }
+}
